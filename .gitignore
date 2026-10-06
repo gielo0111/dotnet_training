@@ -20,8 +20,8 @@ x86/
 bld/
 [Bb]in/
 [Oo]bj/
-[Ll]og/
-[Ll]ogs/
+# [Ll]og/
+# [Ll]ogs/
 
 # .NET Core
 project.lock.json
@@ -29,7 +29,7 @@ project.fragment.lock.json
 artifacts/
 
 # ASP.NET Scaffolding
-ScaffoldingReadMe.txt
+# ScaffoldingReadMe.txt
 
 # NuGet Packages
 *.nupkg
@@ -45,13 +45,15 @@ ScaffoldingReadMe.txt
 CodeCoverage/
 
 # MSBuild Binary and Structured Log
-*.binlog
+# *.binlog
 
 # MSTest test Results
-[Tt]est[Rr]esult*/
+# [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
 # NUnit
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+
