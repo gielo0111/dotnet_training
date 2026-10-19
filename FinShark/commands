@@ -1,0 +1,6 @@
+dotnet new webapi -o api
+
+dotnet restore
+
+dotnet watch run
+
