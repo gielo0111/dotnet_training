@@ -16,3 +16,7 @@ dotnet ef database update
 4. 
 
 dotnet watch run
+
+5. 
+
+dotnet watch run
