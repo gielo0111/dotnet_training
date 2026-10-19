@@ -20,5 +20,11 @@ namespace api.Data
             get;
             set;
         }
+
+        public DbSet<Comment> Comments
+        {
+            get;
+            set;
+        }
     }
 }
