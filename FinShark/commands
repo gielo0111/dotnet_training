@@ -20,3 +20,11 @@ dotnet watch run
 5. 
 
 dotnet watch run
+
+13
+
+dotnet add package Newtonsoft.Json 
+
+dotnet add package Microsoft.AspNetCore.Mvc.NewtonsoftJson
+
+dotnet watch run
